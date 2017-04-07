@@ -1,32 +1,88 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+# Basic
+title: LILIAN
+subtitle: 心灵之窗
+description: 书写生活，充实自我
+# 头像里面的标题
+avatarTitle: 李文宝
+# 头像里面的描述
+avatarDesc: 数据挖掘 / 机器学习
+url: "http://lilian.info"
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: ranjiewen's bolg
-email: jiewenran@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-    Except coding... what are you thinking!
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+# Comment
+comment:
+    # disqus: lilian
+    duoshuo: lilian 
 
-# Build settings
+# Social
+social:
+    weibo: 2344041987
+    github: dearLilian
+    #gsite: liliandreamworld
+    csdn: lilianforever
+    # twitter: 
+    mail: liwenbao930116@gmail.com
+
+# 百度统计 
+# 使用博客模板请去掉或者更换 id 
+baidu:
+    id: e572ae9801b3a18891f123796b889f77
+
+# Google Analytics
+# 使用博客模板请去掉或者更换 id
+ga:
+    id: UA-88738012-1   
+    host: auto  
+
+
+# 《----------------- 上面的信息修改成你自己的 ---------------------------》
+#
+#
+#  _post/ 下的文章更换成你自己的文章
+#  帮忙star一下，感谢~😆 地址： https://github.com/dearLilian/dearLilian.github.io
+#
+#
+# 《--------------- 下面的信息可以自行选择是否修改 ------------------------》
+
+
+permalink: /blog/:year/:month/:title.html 
+
 markdown: kramdown
-theme: minima
-gems:
-  - jekyll-feed
-exclude:
-  - Gemfile
-  - Gemfile.lock
+
+
+kramdown:
+  input:  GFM
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: true
+  extensions:
+    - autolink
+    - footnotes
+    - smart
+  syntax_highlighter: rouge
+
+
+# Format
+highlighter: rouge
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+#cover_color: 
+
+# The blog button should not be removed.
+blog_button:
+    title: 主页
+
+# Navigation buttons in the front page.s
+nav:
+    - {title: 文章, description: archive, url: '/archive'}   
+    - {title: 分类, description: tags, url: '/tags'}
+    - {title: 留言, description: messages, url: '/messages'}
+    - {title: 资源, description: links, url: '/links'}      
+    - {title: 关于, description: about, url: '/about'}      
+    
+
+# Pagination
+gems: [jekyll-paginate,jekyll-sitemap]
+paginate: 10
+paginate_path: "page/:num/"
