@@ -1,12 +1,12 @@
 # Basic
-title: LILIAN
-subtitle: 心灵之窗
-description: 书写生活，充实自我
+title: 冉杰文
+subtitle: 个人站
+description: 终于等到你，还好没放弃！一直在模仿....
 # 头像里面的标题
-avatarTitle: 李文宝
+avatarTitle: ranjiewen
 # 头像里面的描述
-avatarDesc: 数据挖掘 / 机器学习
-url: "http://lilian.info"
+avatarDesc: 图像处理 / 机器学习
+url: "http://ranjiewwen.github.io"
 
 # Comment
 comment:
@@ -15,12 +15,12 @@ comment:
 
 # Social
 social:
-    weibo: 2344041987
-    github: dearLilian
+    weibo: 15623216060
+    github: ranjiewwen
     #gsite: liliandreamworld
-    csdn: lilianforever
+    cnblogs: ranjiewen
     # twitter: 
-    mail: liwenbao930116@gmail.com
+    mail: jiewenaran@gmail.com
 
 # 百度统计 
 # 使用博客模板请去掉或者更换 id 
