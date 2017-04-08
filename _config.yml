@@ -11,7 +11,7 @@ url: "http://ranjiewwen.github.io"
 # Comment
 comment:
     # disqus: lilian
-    duoshuo: lilian 
+    duoshuo: ranjiewen 
 
 # Social
 social:
@@ -38,7 +38,7 @@ ga:
 #
 #
 #  _post/ 下的文章更换成你自己的文章
-#  帮忙star一下，感谢~😆 地址： https://github.com/dearLilian/dearLilian.github.io
+#  帮忙star一下，感谢~😆 地址： https://github.com/ranjiewwen/ranjiewwen.github.io
 #
 #
 # 《--------------- 下面的信息可以自行选择是否修改 ------------------------》
@@ -71,15 +71,15 @@ highlighter: rouge
 
 # The blog button should not be removed.
 blog_button:
-    title: 主页
+    title: home
 
 # Navigation buttons in the front page.s
 nav:
-    - {title: 文章, description: archive, url: '/archive'}   
-    - {title: 分类, description: tags, url: '/tags'}
-    - {title: 留言, description: messages, url: '/messages'}
-    - {title: 资源, description: links, url: '/links'}      
-    - {title: 关于, description: about, url: '/about'}      
+    - {title: paper, description: archive, url: '/archive'}   
+    - {title: tags, description: tags, url: '/tags'}
+    - {title: messages, description: messages, url: '/messages'}
+    - {title: links, description: links, url: '/links'}      
+    - {title: about, description: about, url: '/about'}      
     
 
 # Pagination
