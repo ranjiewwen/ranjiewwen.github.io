@@ -5,7 +5,7 @@ header: 根据快速导航到相应的文章
 group: navigation
 ---
 
-终于等到你，还好没放弃.....
+终于等到你，还好没放弃.....做一个善于发现的人！
 
 ### 简介
 
@@ -13,7 +13,11 @@ group: navigation
 
 - 语言：C,C++,Matlab,python
 
-- 兴趣：code
+- 兴趣：coding
+
+- [GitHub](https://github.com/ranjiewwen) 欢迎 star and fork
+
+- [cnblogs](http://www.cnblogs.com/ranjiewen/) 
 
 ### 更多信息
 
@@ -28,12 +32,14 @@ group: navigation
 
 ### 联系我
 
-如有小伙伴们参考我的模板有些许问题，可以email(jiewenran@gmail.com)给我。评论区的话可能回复不及时。且大家后面也不方便看到。
+如有小伙伴们参考我的模板有些许问题，可以email(jiewenran@gmail.com)给我.
 
 
 ### 博客更新情况
 
 - 2017.04.08, 上线
+
+- 2017.04.09, 修改bug,基本功能完善
 
 
 

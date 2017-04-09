@@ -1,7 +1,7 @@
 # Basic
 title: 冉杰文
 subtitle: 个人站
-description: 终于等到你，还好没放弃！一直在模仿....
+description: 一直在模仿....
 # 头像里面的标题
 avatarTitle: ranjiewen
 # 头像里面的描述
@@ -10,7 +10,7 @@ url: "http://ranjiewwen.github.io"
 
 # Comment
 comment:
-    # disqus: lilian
+    # disqus: 
     duoshuo: ranjiewen 
 
 # Social
@@ -71,15 +71,15 @@ highlighter: rouge
 
 # The blog button should not be removed.
 blog_button:
-    title: home
+    title: 主页
 
 # Navigation buttons in the front page.s
 nav:
-    - {title: paper, description: archive, url: '/archive'}   
-    - {title: tags, description: tags, url: '/tags'}
-    - {title: messages, description: messages, url: '/messages'}
-    - {title: links, description: links, url: '/links'}      
-    - {title: about, description: about, url: '/about'}      
+    - {title: 文章, description: archive, url: '/archive'}   
+    - {title: 标签, description: tags, url: '/tags'}
+    - {title: 留言, description: messages, url: '/messages'}
+    - {title: 链接, description: links, url: '/links'}      
+    - {title: 关于, description: about, url: '/about'}      
     
 
 # Pagination
